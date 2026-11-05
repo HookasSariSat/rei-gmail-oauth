@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rei プライバシーポリシー</title>
+<style>body{font-family:system-ui,sans-serif;max-width:40rem;margin:2rem auto;padding:0 1rem;line-height:1.7}</style>
+</head>
+<body>
+<h1>プライバシーポリシー</h1>
+<p>Rei は開発者本人だけが使う個人用のアシスタントで、利用者は開発者本人だけです。</p>
+<h2>扱うデータ</h2>
+<ul>
+<li>Gmail API(<code>gmail.modify</code>)で、開発者本人のGmailの受信メールの送信元・件名・冒頭の短い抜粋・ラベルを読みます。本文は読みません。</li>
+<li>本人の承認に基づいて、受信トレイから外す(アーカイブ)・ラベルを作って付ける操作をします。メールの送信・削除はしません。</li>
+</ul>
+<h2>保存と共有</h2>
+<ul>
+<li>データは開発者本人の端末で処理し、売却・広告への利用・第三者への提供はしません。</li>
+<li>仕分けの判断のため、送信元・件名などを開発者本人が契約しているAIサービス(Anthropic の Claude)に渡すことがあります。</li>
+<li>Google のユーザーデータの扱いは <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>(Limited Use の要件を含む)に従います。</li>
+</ul>
+<h2>アクセスの取り消し</h2>
+<p>Google アカウントの「セキュリティ」→「サードパーティのアクセス」からいつでも取り消せます。</p>
+<h2>連絡先</h2>
+<p><a href="https://github.com/HookasSariSat/rei-gmail-oauth/issues">GitHub の Issue</a></p>
+<hr>
+<p>Rei is used only by its developer. It reads sender, subject, a short snippet and labels of the developer's own Gmail messages, archives or labels them with the developer's approval, never sends or deletes mail, and never sells or shares the data. Sender and subject may be passed to Anthropic's Claude for triage. Use of Google user data complies with the Google API Services User Data Policy, including the Limited Use requirements.</p>
+</body>
+</html>
